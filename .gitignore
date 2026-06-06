@@ -1,0 +1,49 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+.DS_Store
+tmp/
+
+.env
+.env.*
+!.env.example
+
+Wallet_DISPATCHFLOWDB.zip
+Wallet_DISPATCHFLOWDB/ewallet.pem
+Wallet_DISPATCHFLOWDB/ewallet.p12
+Wallet_DISPATCHFLOWDB/cwallet.sso
+Wallet_DISPATCHFLOWDB/keystore.jks
+Wallet_DISPATCHFLOWDB/truststore.jks
+wallet/
+wallet.zip
